@@ -26,59 +26,56 @@ A PDF version of this syllabus is available <a href="/assets/syllabus.pdf" markd
 
 ## Lectures
 
-| Mon, Wed 12:00 - 1:20 PM &nbsp; | [Math Building 150](http://www.buffalo.edu/home/visiting-ub/CampusMaps/maps.html#MATH){:target="_blank"} |
+| Tue, Thu 12:30 - 1:50 PM &nbsp; | [Math Building 122](http://www.buffalo.edu/home/visiting-ub/CampusMaps/maps.html#MATH){:target="_blank"} |
 
 
 ## Instructor
 
 | Bernard Badzioch |
 | **E-mail:** [badzioch@buffalo.edu](mailto:badzioch@buffalo.edu?subject=MTH 461) |
-| **Office Hours:** Mon 4:00-6:00 PM, Math Building 108 and by appointment |
+| **Office Hours:** Thu 2:00-4:00 PM, Math Building 108 and by appointment |
 
-
-## Prerequisites
-
-This course is a sequel of MTH 309 Introduction to Linear Algebra, and thus we will freely use
-the material that is covered in MTH 309: systems of linear equations, vectors and matrices, inner
-products and orthogonality, determinants, eigenvalues and eigenvectors etc. However,
-these topics will be reviewed briefly as needed.
-
-In addition, it will be assumed that you are familiar with reading and writing mathematical proofs to
-the extent that is covered in MTH 311.
 
 ## Learning outcomes
 
-The goal of this course is to introduce some more advanced topics in linear algebra
-and show how they are used in practical applications. Topics that will be discussed
-may include:
+The goal of this course is to introduce basic notions and methods of abstract algebra.
+Course topics will include:
 
-* Linear and integer programming
-* Elements of spectral graph theory
-* Markov chains
-* Principal Component Analysis
-* Singular Value Decomposition and its applications
-* Iterative computation of eigenvalues and eigenvectors
-* Linear algebra over complex numbers
-* Linear algebra over finite fields
-* Polynomial interpolation and its applications
+* Definition and elementary properties of groups.
+* Cyclic groups, dihedral groups, symmetric groups.
+* Homomorphisms and isomorphisms of groups.
+* Subgroups, cosets, Lagrange theorem. 
+* Normal subgroups and quotient groups.
+* Isomorphism theorems.
+* Direct product of groups.
+* Classification of finitely generated abelian groups.
+* Rings.
+* Ideals of rings and quotient rings.
+* Ring homomorphisms. 
+* Integral domains.
+* Polynomial rings.
+* Fields.
 
-Since all practical application of linear algebra require computer-based computations,
-the material will be illustrated by computations done using Python and some of its
-scientific computing libraries (numpy, scipy, networkx etc.).
+## Prerequisites
+
+The main expectation is that students taking this course are familiar with reading and writing 
+mathematical proofs to the extent that is covered in MTH 311. We will also use basic notions 
+related to sets and functions (also typically covered in MTH 311) as well as some elementary number 
+theory (divisibility of integers, the greatest common divisor etc.). Some topics will involve material 
+from linear algebra (matrices, determinants, vector spaces etc.). These topics are cover in MTH 309.
+
+
 
 ## Textbook
 
-There is no textbook for this course. Instead, the  course will follow [lecture notes](lecture_notes.md)
-that will be posted on this website.
 
-## Software
+Joseph A. Gallian, **Contemporary Abstract Algebra**. 
 
-This course - lectures and homework assignments - will often use computer-based calculations.
-We will be using the [Anaconda distribution of Python](https://www.anaconda.com/products/distribution){:target="_blank"}.
-This is free software available for Mac, Linux, and Windows. Even if you have Python already
-installed on your computer you should install this distribution since it includes Jupyter notebook
-and some Python modules we will need. It will be convenient if you install the software on a laptop,
-if you have one, since then you will be able to bring it to class or office hours if needed.
+This book is currently in the 10th edition, any older edition will be fine as well - they all cover 
+the same material and changes between various editions are mostly cosmetic.
+
+I will also provide my own notes that will be posted [here](lecture_notes.md).
+
 
 
 ## Grading
