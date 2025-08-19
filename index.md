@@ -69,9 +69,9 @@ from linear algebra (matrices, determinants, vector spaces etc.). These topics a
 ## Textbook
 
 
-Joseph A. Gallian, **Contemporary Abstract Algebra**. 
+**Joseph A. Gallian**, ***Contemporary Abstract Algebra***. 
 
-This book is currently in the 10th edition, any older edition will be fine as well - they all cover 
+This book is currently in the 11th edition, but any older edition is just as fine - they all cover 
 the same material and changes between various editions are mostly cosmetic.
 
 I will also provide my own notes that will be posted [here](lecture_notes.md).
