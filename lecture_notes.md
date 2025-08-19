@@ -2,9 +2,12 @@
 layout: lecture_notes
 
 chapters:
-    - title: "1. Linear programming"
+    - title: "1. Groups"
       publish: true
       complete: true
+    - title: "2. Elementary properties of groups"
+      publish: true
+      complete: false
 
 
 
