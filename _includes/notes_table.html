@@ -2,6 +2,7 @@
     table.lecture-notes td {
         padding-left: 10px;
         padding-right: 10px;
+        font-size:
     }
 
     table.lecture-notes tr:hover {
@@ -17,12 +18,12 @@
             <b>{{chapter.title}}</b>
         </td>
         <td>
-            <a href="{{site.baseurl}}/assets/full_notes/mth461_notes_full_{{ch_num}}.pdf" target="_blank">full notes</a>
+            <a href="{{site.baseurl}}/assets/full_notes/mth461_notes_full_{{ch_num}}.pdf">full</a>
         </td>
 
         <td>
             {% if chapter.complete %}
-            <a href="{{site.baseurl}}/assets/skeleton_notes/mth461_notes_skeleton_{{ch_num}}.pdf" target="_blank">skeleton notes</a>
+            <a href="{{site.baseurl}}/assets/skeleton_notes/mth461_notes_skeleton_{{ch_num}}.pdf">skeleton</a>
             {% endif %}
         </td>
         <td>
