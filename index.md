@@ -26,7 +26,7 @@ A PDF version of this syllabus is available <a href="/assets/syllabus.pdf" markd
 
 ## Lectures
 
-| Tue, Thu 12:30 - 1:50 PM &nbsp; | [Math Building 122](http://www.buffalo.edu/home/visiting-ub/CampusMaps/maps.html#MATH){:target="_blank"} |
+| Tue, Thu 12:30 - 1:50 PM &nbsp; Math Building 122
 
 
 ## Instructor
@@ -39,7 +39,7 @@ A PDF version of this syllabus is available <a href="/assets/syllabus.pdf" markd
 ## Learning outcomes
 
 The goal of this course is to introduce basic notions and methods of abstract algebra.
-Course topics will include:
+Course topics include:
 
 * Definition and elementary properties of groups.
 * Cyclic groups, dihedral groups, symmetric groups.
@@ -59,10 +59,10 @@ Course topics will include:
 ## Prerequisites
 
 The main expectation is that students taking this course are familiar with reading and writing 
-mathematical proofs to the extent that is covered in MTH 311. We will also use basic notions 
-related to sets and functions (also typically covered in MTH 311) as well as some elementary number 
-theory (divisibility of integers, the greatest common divisor etc.). Some topics will involve material 
-from linear algebra (matrices, determinants, vector spaces etc.). These topics are cover in MTH 309.
+mathematical proofs to the extent that is covered in MTH 311. We will also use some notions 
+related to sets and functions (also typically covered in MTH 311), as well as some elementary number 
+theory (divisibility of integers, the greatest common divisor etc.). From time to time we will also
+use linear algebra (matrices, determinants, vector spaces etc.). These topics are cover in MTH 309.
 
 
 
@@ -80,16 +80,19 @@ I will also provide my own notes that will be posted [here](lecture_notes.md).
 
 ## Grading
 
-| **Homework**                          | 75% |
-| **Weekly Digests**                    | 25% |
+| **Exam 1**                            | 30% |
+| **Exam 2**                            | 30% |
+| **Homework**                          | 30% |
+| **Weekly Digests**                    | 10% |
 {: .syllabus-table }
 
 ## Homework
 
-Homework problems will be assigned every other week. You can collaborate on homework problems,
-but you must write solutions entirely on your own. Copying solutions from other students or from
-any other sources is a violation of the UB academic integrity policy and may result in academic
-sanctions (reduction of the course grade, course failure etc.).
+Homework problems will be assigned every week. You can collaborate on homework problems
+with other students in this course, but you must write solutions entirely on your own. 
+Copying solutions from other students or from any other sources, including AI systems, 
+is a violation of the UB academic integrity policy and may result in academic sanctions 
+(reduction of the course grade, course failure etc.).
 
 
 ## Weekly digests
@@ -106,19 +109,18 @@ You will be also asked to submit a question (or questions) that you would like t
 see discussed during a class meeting. Asking a question is a required part of this
 assignment.
 
-You can receive up to 25% credit for these writeups. You can miss one
+You can receive up to 10% credit for these writeups. You can miss one
 such assignment without loosing any credit, but your weekly digest credit will be
-lowered by 5% for each subsequent missed assignment (i.e. to 20% of the first reduction,
-15% for the second etc.).
+lowered by 3% for each subsequent missed assignment (i.e. to 7% of the first reduction,
+4% for the second etc.).
 
 I may award extra credit to students who are especially active in the course.
-I may also offer some extra credit opportunities for giving short presentations
-on some topic etc.
 
 
 ## Exams
 
-There will be no exams in this course.
+Exam 1
+Exam 2
 
 
 ## Incomplete Grades
