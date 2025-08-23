@@ -109,7 +109,7 @@ prohibited.
 |**Midterm Exam 1**  |     Thursday, October 9, 12:30-1:50, Math Building 122    | 
 |**Midterm Exam 2**  |     Thursday, November 13, 12:30-1:50, Math Building 122  | 
 |**Final Exam**      |     Wednesday, December 10, 11:45-2:45, Math Building 122 | 
-
+{: .syllabus-table }
 
 ## Incomplete Grades
 
