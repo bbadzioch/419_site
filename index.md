@@ -22,18 +22,28 @@ ul {
 
 # Syllabus
 
-A PDF version of this syllabus is available <a href="/assets/syllabus.pdf" markdown="0">here</a>.
+A PDF version of this syllabus is available <a href="/assets/syllabus_mth419.pdf" markdown="0">here</a>.
 
 ## Lectures
 
 | Tue, Thu 12:30 - 1:50 PM &nbsp; Math Building 122
 
+## Recitations
+
+| Fri 1:00 - 1:50 PM &nbsp; Math Building 250
 
 ## Instructor
 
 | Bernard Badzioch |
-| **E-mail:** [badzioch@buffalo.edu](mailto:badzioch@buffalo.edu?subject=MTH 461) |
+| **E-mail:** [badzioch@buffalo.edu](mailto:badzioch@buffalo.edu?subject=MTH 419) |
 | **Office Hours:** Thu 2:00-4:00 PM, Math Building 108 and by appointment |
+
+## Instructor
+
+| Ning Ma |
+| **E-mail:** [nma22@buffalo.edu](mailto:nma22@buffalo.edu?subject=MTH 419) |
+| **Office Hours:** TBD |
+
 
 
 ## Learning outcomes
@@ -44,10 +54,11 @@ Course topics include:
 * Definition and elementary properties of groups.
 * Cyclic groups, dihedral groups, symmetric groups.
 * Homomorphisms and isomorphisms of groups.
-* Subgroups, cosets, Lagrange theorem. 
+* Subgroups
+* Direct products of groups.
+* Cosets, Lagrange theorem. 
 * Normal subgroups and quotient groups.
 * Isomorphism theorems.
-* Direct product of groups.
 * Classification of finitely generated abelian groups.
 * Rings.
 * Ideals of rings and quotient rings.
@@ -65,7 +76,6 @@ theory (divisibility of integers, the greatest common divisor etc.). From time t
 use linear algebra (matrices, determinants, vector spaces etc.). These topics are cover in MTH 309.
 
 
-
 ## Textbook
 
 
@@ -76,51 +86,29 @@ the same material and changes between various editions are mostly cosmetic.
 
 I will also provide my own notes that will be posted [here](lecture_notes.md).
 
-
-
 ## Grading
 
-| **Exam 1**                            | 30% |
-| **Exam 2**                            | 30% |
-| **Homework**                          | 30% |
-| **Weekly Digests**                    | 10% |
+| **Midterm Exam 1**                    | 23% |
+| **Midterm Exam 2**                    | 23% |
+| **Final Exam**                        | 34% |
+| **Homework**                          | 20% |
 {: .syllabus-table }
 
 ## Homework
 
 Homework problems will be assigned every week. You can collaborate on homework problems
 with other students in this course, but you must write solutions entirely on your own. 
-Copying solutions from other students or from any other sources, including AI systems, 
-is a violation of the UB academic integrity policy and may result in academic sanctions 
-(reduction of the course grade, course failure etc.).
-
-
-## Weekly digests
-
-Each week you will be asked to submit a short (a few sentences long) writeup
-on your study from the previous week. For example, you can write:
-
-* what topics you have found interesting (or boring)
-* what topics you have found difficult (or easy)
-* how  you feel about the course
-* anything else you want to share.
-
-You will be also asked to submit a question (or questions) that you would like to
-see discussed during a class meeting. Asking a question is a required part of this
-assignment.
-
-You can receive up to 10% credit for these writeups. You can miss one
-such assignment without loosing any credit, but your weekly digest credit will be
-lowered by 3% for each subsequent missed assignment (i.e. to 7% of the first reduction,
-4% for the second etc.).
-
-I may award extra credit to students who are especially active in the course.
+Copying solutions from other students or from any other sources is a violation of the UB 
+academic integrity policy and may result in academic sanctions (reduction of the course grade, 
+course failure etc.). Any use of generative AI (Chat GPT etc.) for homework problems is also 
+prohibited.
 
 
 ## Exams
 
-Exam 1
-Exam 2
+|**Midterm Exam 1**  |     Thursday, October 9, 12:30-1:50, Math Building 122    | 
+|**Midterm Exam 2**  |     Thursday, November 13, 12:30-1:50, Math Building 122  | 
+|**Final Exam**      |     Wednesday, December 10, 11:45-2:45, Math Building 122 | 
 
 
 ## Incomplete Grades
