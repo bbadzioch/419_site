@@ -100,7 +100,7 @@ Homework problems will be assigned every week. You can collaborate on homework p
 with other students in this course, but you must write solutions entirely on your own. 
 Copying solutions from other students or from any other sources is a violation of the UB 
 academic integrity policy and may result in academic sanctions (reduction of the course grade, 
-course failure etc.). Any use of generative AI (Chat GPT etc.) for homework problems is also 
+course failure etc.). Any use of generative AI (Chat GPT etc.) for homework problems is 
 prohibited.
 
 
