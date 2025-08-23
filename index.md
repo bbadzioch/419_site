@@ -38,7 +38,7 @@ A PDF version of this syllabus is available <a href="/assets/syllabus_mth419.pdf
 | **E-mail:** [badzioch@buffalo.edu](mailto:badzioch@buffalo.edu?subject=MTH 419) |
 | **Office Hours:** Thu 2:00-4:00 PM, Math Building 108 and by appointment |
 
-## Instructor
+## TA
 
 | Ning Ma |
 | **E-mail:** [nma22@buffalo.edu](mailto:nma22@buffalo.edu?subject=MTH 419) |
