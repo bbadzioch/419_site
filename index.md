@@ -26,7 +26,7 @@ A PDF version of this syllabus is available <a href="/assets/syllabus_mth419.pdf
 
 ## Lectures
 
-| Tue, Thu 12:30 - 1:50 PM &nbsp; Math Building 122
+| Tue, Thu 9:30 - 10:50 AM &nbsp; Math Building 122
 
 ## Recitations
 
@@ -106,9 +106,9 @@ prohibited.
 
 ## Exams
 
-|**Midterm Exam 1**  |     Thursday, October 9, 12:30-1:50    | Math Building 122    | 
-|**Midterm Exam 2**  |     Thursday, November 13, 12:30-1:50  | Math Building 122    | 
-|**Final Exam**      |     Wednesday, December 10, 11:45-2:45 | Math Building 122    | 
+|**Midterm Exam 1**  |     Thursday, October 9, 9:30-10:50 AM       | Math Building 122    | 
+|**Midterm Exam 2**  |     Thursday, November 13, 9:30-10:50 AM     | Math Building 122    | 
+|**Final Exam**      |     Wednesday, December 10, 11:45 AM-2:45 PM | Math Building 122    | 
 {: .syllabus-table }
 
 ## Incomplete Grades
