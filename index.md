@@ -38,6 +38,10 @@ A PDF version of this syllabus is available <a href="/assets/syllabus_mth419.pdf
 | **E-mail:** [badzioch@buffalo.edu](mailto:badzioch@buffalo.edu?subject=MTH 419) |
 | **Office Hours:** Thu 2:00-4:00 PM, Math Building 108 and by appointment |
 
+**Note:** I am teaching two different courses this semester. To keep office hours more 
+organized, please try to come to my office hours between 3-4 PM with questions about this 
+course. However, if you need to come before 3 PM, it is fine as well. 
+
 ## TA
 
 | Ning Ma |
