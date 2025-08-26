@@ -3,22 +3,26 @@ layout: lecture_notes
 
 chapters:
     - title: "1. Review: set theory"
-      textbook: "--"
+      textbook: "Ch. 0"
       publish: true
       complete: true
-    - title: "2. Groups"
+    - title: "2. Some number theory"
+      textbook: "Ch. 0"
+      publish: true
+      complete: true
+    - title: "3. Groups"
       textbook: "Ch. 2"
       publish: true
       complete: true
-    - title: "3. Elementary properties of groups"
+    - title: "4. Elementary properties of groups"
       textbook: "Ch. 2"
       publish: true
       complete: true
-    - title: "4. Dihedral groups"
+    - title: "5. Dihedral groups"
       textbook: "Ch. 1"
       publish: true
       complete: true
-    - title: "5. Order of an element of a group"
+    - title: "6. Order of an element of a group"
       textbook: "Ch. 3"
       publish: true
       complete: true
