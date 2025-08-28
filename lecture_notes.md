@@ -26,6 +26,14 @@ chapters:
       textbook: "Ch. 3"
       publish: true
       complete: false
+    - title: "7. Subgroups"
+      textbook: "Ch. 3"
+      publish: true
+      complete: false
+    - title: "8. Direct products"
+      textbook: "Ch. 8"
+      publish: true
+      complete: false
 
 
 ---
