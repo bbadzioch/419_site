@@ -46,7 +46,7 @@ course. However, if you need to come before 3 PM, it is fine as well.
 
 | Ning Ma |
 | **E-mail:** [nma22@buffalo.edu](mailto:nma22@buffalo.edu?subject=MTH 419) |
-| **Office Hours:** TBD |
+| **Office Hours:** Mon, Wed 12:00-1:00 PM, Math Building 129 |
 
 
 
