@@ -29,15 +29,20 @@ chapters:
     - title: "7. Subgroups"
       textbook: "Ch. 3"
       publish: true
-      complete: false
+      complete: true
     - title: "8. Direct products"
       textbook: "Ch. 8"
       publish: true
-      complete: false
+      complete: true
     - title: "9. Cyclic groups"
       textbook: "Ch. 4"
       publish: true
       complete: false
+    - title: "10. Permutation groups"
+      textbook: "Ch. 5"
+      publish: true
+      complete: false
+
 
 
 ---
