@@ -37,9 +37,13 @@ chapters:
     - title: "9. Cyclic groups"
       textbook: "Ch. 4"
       publish: true
-      complete: false
+      complete: true
     - title: "10. Permutation groups"
       textbook: "Ch. 5"
+      publish: true
+      complete: false
+    - title: "11. Homomorphisms"
+      textbook: "Ch. 10"
       publish: true
       complete: false
 
