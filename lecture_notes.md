@@ -44,16 +44,16 @@ chapters:
       complete: true
     - title: "11. Homomorphisms"
       textbook: "Ch. 10"
-      publish: false
-      complete: true
+      publish: true
+      complete: false
     - title: "12. Isomorphisms of groups"
       textbook: "Ch. 6"
-      publish: false
-      complete: true
+      publish: true
+      complete: false
     - title: "13. Cosets and Lagrange Theorem"
       textbook: "Ch. 7"
-      publish: false
-      complete: true
+      publish: true
+      complete: false
 
 
 
