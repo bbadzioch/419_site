@@ -41,11 +41,20 @@ chapters:
     - title: "10. Permutation groups"
       textbook: "Ch. 5"
       publish: true
-      complete: false
+      complete: true
     - title: "11. Homomorphisms"
       textbook: "Ch. 10"
-      publish: true
-      complete: false
+      publish: false
+      complete: true
+    - title: "12. Isomorphisms of groups"
+      textbook: "Ch. 6"
+      publish: false
+      complete: true
+    - title: "13. Cosets and Lagrange Theorem"
+      textbook: "Ch. 7"
+      publish: false
+      complete: true
+
 
 
 
