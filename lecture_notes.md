@@ -49,7 +49,7 @@ chapters:
     - title: "12. Isomorphisms of groups"
       textbook: "Ch. 6"
       publish: true
-      complete: false
+      complete: true
     - title: "13. Cosets and Lagrange Theorem"
       textbook: "Ch. 7"
       publish: true
