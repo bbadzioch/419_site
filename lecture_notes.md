@@ -54,6 +54,10 @@ chapters:
       textbook: "Ch. 7"
       publish: true
       complete: false
+    - title: "14. Quotient groups"
+      textbook: "Ch. 9"
+      publish: true
+      complete: false
 
 
 
