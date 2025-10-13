@@ -45,7 +45,7 @@ chapters:
     - title: "11. Homomorphisms"
       textbook: "Ch. 10"
       publish: true
-      complete: false
+      complete: true
     - title: "12. Isomorphisms of groups"
       textbook: "Ch. 6"
       publish: true
