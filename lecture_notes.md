@@ -53,7 +53,7 @@ chapters:
     - title: "13. Cosets and Lagrange Theorem"
       textbook: "Ch. 7"
       publish: true
-      complete: false
+      complete: true
     - title: "14. Quotient groups"
       textbook: "Ch. 9"
       publish: true
