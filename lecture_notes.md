@@ -58,6 +58,14 @@ chapters:
       textbook: "Ch. 9"
       publish: true
       complete: false
+    - title: "15. Group actions"
+      textbook: "--"
+      publish: true
+      complete: false
+    - title: "16. Finite abelian groups"
+      textbook: "Ch. 11"
+      publish: true
+      complete: false
 
 
 
