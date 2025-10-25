@@ -61,12 +61,15 @@ chapters:
     - title: "15. Group actions"
       textbook: "--"
       publish: true
-      complete: false
+      complete: true
     - title: "16. Finite abelian groups"
       textbook: "Ch. 11"
       publish: true
       complete: false
-
+    - title: "17. Rings"
+      textbook: "Ch. 12"
+      publish: true
+      complete: false
 
 
 
