@@ -70,7 +70,7 @@ chapters:
       textbook: "Ch. 12"
       publish: true
       complete: false
-    - title: "18 Integral domains and fields"
+    - title: "18. Integral domains and fields"
       textbook: "Ch. 13"
       publish: true
       complete: false 
