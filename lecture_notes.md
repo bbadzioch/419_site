@@ -57,7 +57,7 @@ chapters:
     - title: "14. Quotient groups"
       textbook: "Ch. 9"
       publish: true
-      complete: false
+      complete: true
     - title: "15. Group actions"
       textbook: "--"
       publish: true
@@ -65,7 +65,7 @@ chapters:
     - title: "16. Finite abelian groups"
       textbook: "Ch. 11"
       publish: true
-      complete: false
+      complete: true
     - title: "17. Rings"
       textbook: "Ch. 12"
       publish: true
