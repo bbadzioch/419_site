@@ -73,7 +73,7 @@ chapters:
     - title: "18. Integral domains and fields"
       textbook: "Ch. 13"
       publish: true
-      complete: false 
+      complete: true 
     - title: "19. Ideals and quotient rings"
       textbook: "Ch. 14"
       publish: true
