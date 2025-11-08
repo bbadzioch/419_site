@@ -69,7 +69,7 @@ chapters:
     - title: "17. Rings"
       textbook: "Ch. 12"
       publish: true
-      complete: false
+      complete: true
     - title: "18. Integral domains and fields"
       textbook: "Ch. 13"
       publish: true
