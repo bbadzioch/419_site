@@ -77,7 +77,7 @@ chapters:
     - title: "19. Ideals and quotient rings"
       textbook: "Ch. 14"
       publish: true
-      complete: false
+      complete: true
     - title: "20. Ring homomorphisms"
       textbook: "Ch. 15"
       publish: true
