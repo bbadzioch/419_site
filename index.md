@@ -22,107 +22,98 @@ ul {
 
 # Syllabus
 
-A PDF version of this syllabus is available <a href="/assets/syllabus.pdf" markdown="0">here</a>.
+A PDF version of this syllabus is available <a href="/assets/syllabus_mth419.pdf" markdown="0">here</a>.
 
 ## Lectures
 
-| Mon, Wed 12:00 - 1:20 PM &nbsp; | [Math Building 150](http://www.buffalo.edu/home/visiting-ub/CampusMaps/maps.html#MATH){:target="_blank"} |
+| Tue, Thu 9:30 - 10:50 AM &nbsp; Math Building 122
 
+## Recitations
+
+| Fri 1:00 - 1:50 PM &nbsp; Math Building 250
 
 ## Instructor
 
 | Bernard Badzioch |
-| **E-mail:** [badzioch@buffalo.edu](mailto:badzioch@buffalo.edu?subject=MTH 461) |
-| **Office Hours:** Mon 4:00-6:00 PM, Math Building 108 and by appointment |
+| **E-mail:** [badzioch@buffalo.edu](mailto:badzioch@buffalo.edu?subject=MTH 419) |
+| **Office Hours:** Thu 2:00-4:00 PM, Math Building 108 and by appointment |
+
+**Note:** I am teaching two different courses this semester. To keep office hours more 
+organized, please try to come to my office hours between 3-4 PM with questions about this 
+course. However, if you need to come before 3 PM, it is fine as well. 
+
+## TA
+
+| Ning Ma |
+| **E-mail:** [nma22@buffalo.edu](mailto:nma22@buffalo.edu?subject=MTH 419) |
+| **Office Hours:** Mon, Wed 12:00-1:00 PM, Math Building 129 |
 
 
-## Prerequisites
-
-This course is a sequel of MTH 309 Introduction to Linear Algebra, and thus we will freely use
-the material that is covered in MTH 309: systems of linear equations, vectors and matrices, inner
-products and orthogonality, determinants, eigenvalues and eigenvectors etc. However,
-these topics will be reviewed briefly as needed.
-
-In addition, it will be assumed that you are familiar with reading and writing mathematical proofs to
-the extent that is covered in MTH 311.
 
 ## Learning outcomes
 
-The goal of this course is to introduce some more advanced topics in linear algebra
-and show how they are used in practical applications. Topics that will be discussed
-may include:
+The goal of this course is to introduce basic notions and methods of abstract algebra.
+Course topics include:
 
-* Linear and integer programming
-* Elements of spectral graph theory
-* Markov chains
-* Principal Component Analysis
-* Singular Value Decomposition and its applications
-* Iterative computation of eigenvalues and eigenvectors
-* Linear algebra over complex numbers
-* Linear algebra over finite fields
-* Polynomial interpolation and its applications
+* Definition and elementary properties of groups.
+* Cyclic groups, dihedral groups, symmetric groups.
+* Homomorphisms and isomorphisms of groups.
+* Subgroups
+* Direct products of groups.
+* Cosets, Lagrange theorem. 
+* Normal subgroups and quotient groups.
+* Isomorphism theorems.
+* Classification of finitely generated abelian groups.
+* Rings.
+* Ideals of rings and quotient rings.
+* Ring homomorphisms. 
+* Integral domains.
+* Polynomial rings.
+* Fields.
 
-Since all practical application of linear algebra require computer-based computations,
-the material will be illustrated by computations done using Python and some of its
-scientific computing libraries (numpy, scipy, networkx etc.).
+## Prerequisites
+
+The main expectation is that students taking this course are familiar with reading and writing 
+mathematical proofs to the extent that is covered in MTH 311. We will also use some notions 
+related to sets and functions (also typically covered in MTH 311), as well as some elementary number 
+theory (divisibility of integers, the greatest common divisor etc.). From time to time we will also
+use linear algebra (matrices, determinants, vector spaces etc.). These topics are cover in MTH 309.
+
 
 ## Textbook
 
-There is no textbook for this course. Instead, the  course will follow [lecture notes](lecture_notes.md)
-that will be posted on this website.
 
-## Software
+**Joseph A. Gallian**, ***Contemporary Abstract Algebra***. 
 
-This course - lectures and homework assignments - will often use computer-based calculations.
-We will be using the [Anaconda distribution of Python](https://www.anaconda.com/products/distribution){:target="_blank"}.
-This is free software available for Mac, Linux, and Windows. Even if you have Python already
-installed on your computer you should install this distribution since it includes Jupyter notebook
-and some Python modules we will need. It will be convenient if you install the software on a laptop,
-if you have one, since then you will be able to bring it to class or office hours if needed.
+This book is currently in the 11th edition, but any older edition is just as fine - they all cover 
+the same material and changes between various editions are mostly cosmetic.
 
+I will also provide my own notes that will be posted [here](lecture_notes.md).
 
 ## Grading
 
-| **Homework**                          | 75% |
-| **Weekly Digests**                    | 25% |
+| **Midterm Exam 1**                    | 23% |
+| **Midterm Exam 2**                    | 23% |
+| **Final Exam**                        | 34% |
+| **Homework**                          | 20% |
 {: .syllabus-table }
 
 ## Homework
 
-Homework problems will be assigned every other week. You can collaborate on homework problems,
-but you must write solutions entirely on your own. Copying solutions from other students or from
-any other sources is a violation of the UB academic integrity policy and may result in academic
-sanctions (reduction of the course grade, course failure etc.).
-
-
-## Weekly digests
-
-Each week you will be asked to submit a short (a few sentences long) writeup
-on your study from the previous week. For example, you can write:
-
-* what topics you have found interesting (or boring)
-* what topics you have found difficult (or easy)
-* how  you feel about the course
-* anything else you want to share.
-
-You will be also asked to submit a question (or questions) that you would like to
-see discussed during a class meeting. Asking a question is a required part of this
-assignment.
-
-You can receive up to 25% credit for these writeups. You can miss one
-such assignment without loosing any credit, but your weekly digest credit will be
-lowered by 5% for each subsequent missed assignment (i.e. to 20% of the first reduction,
-15% for the second etc.).
-
-I may award extra credit to students who are especially active in the course.
-I may also offer some extra credit opportunities for giving short presentations
-on some topic etc.
+Homework problems will be assigned every week. You can collaborate on homework problems
+with other students in this course, but you must write solutions entirely on your own. 
+Copying solutions from other students or from any other sources is a violation of the UB 
+academic integrity policy and may result in academic sanctions (reduction of the course grade, 
+course failure etc.). Any use of generative AI (Chat GPT etc.) for homework problems is 
+prohibited.
 
 
 ## Exams
 
-There will be no exams in this course.
-
+|**Midterm Exam 1**  |     Thursday, October 9, 9:30-10:50 AM       | Math Building 122    | 
+|**Midterm Exam 2**  |     Thursday, November 13, 9:30-10:50 AM     | Math Building 122    | 
+|**Final Exam**      |     Wednesday, December 10, 11:45 AM-2:45 PM | Math Building 122    | 
+{: .syllabus-table }
 
 ## Incomplete Grades
 

@@ -16,7 +16,7 @@
 					<a href="{{ site.baseurl }}/"><i class="fa fa-home"></i></a>
 				</li>
 				{% for module in site.data.course.modules %}
-					{% assign first_post = site.categories[module]|reverse|first %}
+					{% assign first_post = site.categories[module]|reverse|last %}
 					<li class="dropdown {% if page.categories[1] == module %}active{% endif %} {% if forloop.first %}first{% endif %} {% if forloop.last %}last{% endif %}">
 						<a href="{{ site.baseurl }}{{ first_post.url }}"
 						   class="dropdown-item">
@@ -28,7 +28,10 @@
 					<a href="{{ site.baseurl }}{% link lecture_notes.md %}">Lecture notes</a>
 				</li>
 				<li>
-					<a href="https://www.gradescope.com">Gradescope</a>
+					<a href="https://piazza.com/buffalo/fall2025/mth419/home">Piazza</a>
+				</li>
+				<li>
+					<a href="https://ublearns.buffalo.edu/d2l/home">UB Learns</a>
 				</li>
 			</ul>
 		</div>
