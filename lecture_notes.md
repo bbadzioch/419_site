@@ -81,7 +81,7 @@ chapters:
     - title: "20. Ring homomorphisms"
       textbook: "Ch. 15"
       publish: true
-      complete: false
+      complete: true
     - title: "21. Rings of polynomials"
       textbook: "Ch. 16"
       publish: true
