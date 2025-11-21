@@ -85,7 +85,7 @@ chapters:
     - title: "21. Rings of polynomials"
       textbook: "Ch. 16"
       publish: true
-      complete: false
+      complete: true
     - title: "22. Unique factorization domains"
       textbook: "Ch. 18"
       publish: true
