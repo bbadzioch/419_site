@@ -89,6 +89,14 @@ chapters:
     - title: "22. Unique factorization domains"
       textbook: "Ch. 18"
       publish: true
+      complete: true
+    - title: "23. Prime elements and UFDs "
+      textbook: "Ch. 18"
+      publish: true
+      complete: false
+    - title: "24. PIDs and UFDs"
+      textbook: "Ch. 17, 18"
+      publish: true
       complete: false
 
 
