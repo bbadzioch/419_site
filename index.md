@@ -49,8 +49,8 @@ A PDF version of this syllabus is available <a href="/assets/syllabus_mth419.pdf
 
 ## Learning outcomes
 
-The goal of this course is to introduce basic notions and methods of abstract algebra.
-Course topics include:
+The goal of this course is to introduce basic notions and methods of abstract algebra. 
+After completing it, you should have working knowledge of the following topics:
 
 * Definition and elementary properties of groups.
 * Cyclic groups, dihedral groups, symmetric groups.
@@ -105,11 +105,15 @@ a private message on Piazza or contact me by e-mail.
 
 ## Grading
 
-| **Midterm Exam 1**                    | 20% |
-| **Midterm Exam 2**                    | 20% |
-| **Final Exam**                        | 30% |
-| **Digests**                           | 10% |
+You will receive a letter grade for each exam. Homework will be assigned letter grades on the 
+following scale: 100-88% of the maximum possible score = A, 87-75% = B, 74-62% = C, 61-49% = D,  
+49-0% = F. The final course grade will be computed as a weighted average of all these latter grades, 
+with weights given as follows:
+
 | **Homework**                          | 20% |
+| **Midterm Exam 1**                    | 23% |
+| **Midterm Exam 2**                    | 23% |
+| **Final Exam**                        | 34% |
 {: .syllabus-table }
 
 ## Homework
@@ -123,19 +127,12 @@ can explain your work in person. If you will not be able to do it, you will rece
 the homework assignment, and additionally your final course grade will be lowered by one letter 
 grade (from A to A-, from A- to B+ etc.) for each instance.
 
-## Weekly Digests
-
-Each week you will be asked to submit a short (1-3 sentences) writeup on your study from the previous 
-week. You will be also asked to submit a question (or questions) regarding the course. You can receive 
-up to 10% credit for these write-ups. You can miss one such assignment without loosing any credit, but 
-your weekly digest credit will be lowered by 2% for each subsequent missed assignment (i.e. from 10% to 8% etc.).
-
 
 ## Exams
 
 |**Midterm Exam 1**  |     Thursday, October 8, 11:00 AM -12:20 PM      | Math Building 150    | 
 |**Midterm Exam 2**  |     Thursday, November 12, 11:00 AM -12:20 PM    | Math Building 150    | 
-|**Final Exam**      |     Wednesday, December 10, 11:45 AM-2:45 PM     | Math Building 150    | 
+|**Final Exam**      |     Thursday, December 10, 11:45 AM-2:45 PM     | Math Building 150    | 
 {: .syllabus-table }
 
 
@@ -159,6 +156,5 @@ See the UB Catalog for the [UB Academic Integrity Policy](https://catalogs.buffa
 
 ## Accessibility Resources
 
-If you need accommodations due to a physical or learning disability please contact the
-[UB Accessibility Resources Office](https://www.buffalo.edu/studentlife/who-we-are/departments/accessibility.html){:target="_blank"}
-to get help with making appropriate arrangements.
+If you have any disability that requires reasonable accommodations to enable you to participate in this course, please contact the Office of Accessibility Resources in 60 Capen Hall at 716-645-2608 and the instructor of this course during the first week of class. The office will provide you with information and review appropriate arrangements for reasonable accommodations, as outlined on the Accessibility Resources website: 
+[UB Accessibility Resources Office website](https://www.buffalo.edu/studentlife/who-we-are/departments/accessibility.html){:target="_blank"}.
