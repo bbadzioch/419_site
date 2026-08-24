@@ -130,8 +130,8 @@ grade (from A to A-, from A- to B+ etc.) for each instance.
 
 ## Exams
 
-|**Midterm Exam 1**  |     Thursday, October 8, 11:00 AM -12:20 PM      | Math Building 150    | 
-|**Midterm Exam 2**  |     Thursday, November 12, 11:00 AM -12:20 PM    | Math Building 150    | 
+|**Midterm Exam 1**  |     Thursday, October 8, 11:00 AM -12:20 PM     | Math Building 150    | 
+|**Midterm Exam 2**  |     Thursday, November 12, 11:00 AM -12:20 PM   | Math Building 150    | 
 |**Final Exam**      |     Thursday, December 10, 11:45 AM-2:45 PM     | Math Building 150    | 
 {: .syllabus-table }
 
