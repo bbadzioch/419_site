@@ -106,9 +106,8 @@ a private message on Piazza or contact me by e-mail.
 ## Grading
 
 You will receive a letter grade for each exam. Homework will be assigned letter grades on the 
-following scale: 100-88% of the maximum possible score = A, 87-75% = B, 74-62% = C, 61-49% = D,  
-49-0% = F. The final course grade will be computed as a weighted average of all these latter grades, 
-with weights given as follows:
+following scale: 100-88% of the maximum possible score = A, 87-75% = B, 74-62% = C, 61-49% = D, 49-0% = F. 
+The final course grade will be computed as a weighted average of all these latter grades, with weights given as follows:
 
 | **Homework**                          | 20% |
 | **Midterm Exam 1**                    | 23% |
