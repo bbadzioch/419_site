@@ -81,7 +81,7 @@ use linear algebra (matrices, determinants, vector spaces etc.). These topics ar
 ## Textbook
 
 
-**Joseph A. Gallian**, ***Contemporary Abstract Algebra***. 
+[**Joseph A. Gallian**, ***Contemporary Abstract Algebra***](https://www.routledge.com/Contemporary-Abstract-Algebra/Gallian/p/book/9781032778914). 
 
 This book is currently in the 11th edition, but any older edition is just as fine - they all cover 
 the same material and changes between various editions are mostly cosmetic.

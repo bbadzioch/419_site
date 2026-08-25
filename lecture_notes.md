@@ -5,15 +5,15 @@ chapters:
     - title: "1. Review: set theory"
       textbook: "Ch. 0"
       publish: true
-      complete: false
+      complete: true
     - title: "2. Some number theory"
       textbook: "Ch. 0"
       publish: true
-      complete: false
+      complete: true
     - title: "3. Groups"
       textbook: "Ch. 2"
       publish: true
-      complete: false
+      complete: true
     - title: "4. Elementary properties of groups"
       textbook: "Ch. 2"
       publish: false
