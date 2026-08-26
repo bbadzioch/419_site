@@ -141,7 +141,7 @@ The Math Help Center is an additional place (beside lectures, recitations, and o
 can seek help with questions related to this course. The Math Help Center is located in room 110 of 
 the Mathematics Building and it is staffed by math graduate students. You don't need an appointment to 
 visit it, you can stop by at any time during its opening hours. The current schedule of the Math Help 
-Center is posted [here](www.buffalo.edu/cas/math/ug/help-center.html).
+Center is posted [here](https://www.buffalo.edu/cas/math/ug/help-center.html).
 
 ## Incomplete Grades
 
