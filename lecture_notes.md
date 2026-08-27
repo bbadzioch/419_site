@@ -16,15 +16,15 @@ chapters:
       complete: true
     - title: "4. Elementary properties of groups"
       textbook: "Ch. 2"
-      publish: false
+      publish: true
       complete: true
     - title: "5. Dihedral groups"
       textbook: "Ch. 1"
-      publish: false
+      publish: true
       complete: true
     - title: "6. Order of an element of a group"
       textbook: "Ch. 3"
-      publish: false
+      publish: true
       complete: true
     - title: "7. Subgroups"
       textbook: "Ch. 3"
