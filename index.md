@@ -26,7 +26,7 @@ A PDF version of this syllabus is available <a href="/assets/syllabus_mth419.pdf
 
 ## Lectures
 
-| Tue, Thu 11:30 - 12:20 AM &nbsp; Math Building 150
+| Tue, Thu 11:00 - 12:20 AM &nbsp; Math Building 150
 
 ## Recitations
 
