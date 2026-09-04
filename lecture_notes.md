@@ -28,11 +28,11 @@ chapters:
       complete: true
     - title: "7. Subgroups"
       textbook: "Ch. 3"
-      publish: false
+      publish: true
       complete: true
     - title: "8. Direct products"
       textbook: "Ch. 8"
-      publish: false
+      publish: true
       complete: true
     - title: "9. Cyclic groups"
       textbook: "Ch. 4"
