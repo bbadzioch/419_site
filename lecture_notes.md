@@ -36,11 +36,11 @@ chapters:
       complete: true
     - title: "9. Cyclic groups"
       textbook: "Ch. 4"
-      publish: false
+      publish: true
       complete: true
     - title: "10. Permutation groups"
       textbook: "Ch. 5"
-      publish: false
+      publish: true
       complete: true
     - title: "11. Homomorphisms"
       textbook: "Ch. 10"
