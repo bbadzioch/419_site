@@ -43,7 +43,7 @@ A PDF version of this syllabus is available <a href="/assets/syllabus_mth419.pdf
 
 | Michael Erickson |
 | **E-mail:** [erickso2@buffalo.edu](mailto:erickso2@buffalo.edu?subject=MTH 419) |
-| **Office Hours:** TBA |
+| **Office Hours:** Mon 9:30-10:30 AM and Thu 12:30-1:30 PM, Math Building 139 |
 
 
 
