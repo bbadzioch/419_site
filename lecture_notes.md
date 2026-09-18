@@ -42,59 +42,67 @@ chapters:
       textbook: "Ch. 5"
       publish: true
       complete: true
-    - title: "11. Homomorphisms"
+    - title: "11. Cycle decomposition"
+      textbook: "Ch. 5"
+      publish: true
+      complete: true
+    - title: "12. Sign of a permutation"
+      textbook: "Ch. 5"
+      publish: true
+      complete: true
+    - title: "13. Homomorphisms"
       textbook: "Ch. 10"
       publish: false
       complete: true
-    - title: "12. Isomorphisms of groups"
+    - title: "14. Isomorphisms of groups"
       textbook: "Ch. 6"
       publish: false
       complete: true
-    - title: "13. Cosets and Lagrange Theorem"
+    - title: "15. Cosets and Lagrange Theorem"
       textbook: "Ch. 7"
       publish: false
       complete: true
-    - title: "14. Quotient groups"
+    - title: "16. Quotient groups"
       textbook: "Ch. 9"
       publish: false
       complete: true
-    - title: "15. Group actions"
+    - title: "17. Group actions"
       textbook: "--"
       publish: false
       complete: true
-    - title: "16. Finite abelian groups"
+    - title: "18. Finite abelian groups"
       textbook: "Ch. 11"
       publish: false
       complete: true
-    - title: "17. Rings"
+    - title: "19. Rings"
       textbook: "Ch. 12"
       publish: false
       complete: true
-    - title: "18. Integral domains and fields"
+    - title: "20. Integral domains and fields"
       textbook: "Ch. 13"
       publish: false
       complete: true 
-    - title: "19. Ideals and quotient rings"
+    - title: "21. Ideals and quotient rings"
       textbook: "Ch. 14"
       publish: false
       complete: true
-    - title: "20. Ring homomorphisms"
+    - title: "22. Ring homomorphisms"
       textbook: "Ch. 15"
       publish: false
       complete: true
-    - title: "21. Rings of polynomials"
+    - title: "23. Rings of polynomials"
       textbook: "Ch. 16"
       publish: false
       complete: true
-    - title: "22. Unique factorization domains"
+    - title: "24. Unique factorization domains"
       textbook: "Ch. 18"
       publish: false
       complete: true
-    - title: "23. Prime elements and UFDs "
+    - title: "25. Prime elements and UFDs "
       textbook: "Ch. 18"
       publish: false
       complete: true
-    - title: "24. PIDs and UFDs"
+    - title: "26. PIDs and UFDs"
       textbook: "Ch. 17, 18"
       publish: false
       complete: true
