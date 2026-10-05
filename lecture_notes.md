@@ -52,11 +52,11 @@ chapters:
       complete: true
     - title: "13. Homomorphisms"
       textbook: "Ch. 10"
-      publish: false
+      publish: true
       complete: true
     - title: "14. Isomorphisms of groups"
       textbook: "Ch. 6"
-      publish: false
+      publish: true
       complete: true
     - title: "15. Cosets and Lagrange Theorem"
       textbook: "Ch. 7"
