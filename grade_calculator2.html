@@ -1,0 +1,199 @@
+---
+layout: base
+title: Grade Calculator
+permalink: /grade-calculator2/
+---
+
+<!DOCTYPE html>
+<html lang="en">
+<head>
+<meta charset="utf-8">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<title>MTH 419 | Grade calculator</title>
+<meta name="description" content="MTH 419">
+<meta name="author" content="bbadzioch">
+<link rel="shortcut icon" href="https://mth419.ubmath.info/img/favicon.ico">
+<link rel="preconnect" href="https://fonts.googleapis.com">
+<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+<link href="https://fonts.googleapis.com/css2?family=Arvo&family=Open+Sans:wght@400;700&display=swap" rel="stylesheet">
+<style>
+  /* Palette and fonts from mth419.ubmath.info */
+  :root {
+    --navy: #05386B;
+    --teal: #379683;
+    --slate: #587E80;
+    --pale: #EDF5E1;
+    --pale-line: #D6E8BB;
+    --white: #FCFCFC;
+  }
+  * { box-sizing: border-box; }
+  html, body { margin: 0; }
+  body {
+    background: var(--pale); color: var(--navy);
+    font-family: "Open Sans", "Helvetica Neue", Helvetica, Arial, sans-serif;
+    font-size: 18px; line-height: 1.5;
+    display: flex; flex-direction: column; min-height: 100vh;
+  }
+  a { color: var(--slate); text-decoration: none; }
+  a:hover, a:focus { text-decoration: underline; }
+  h1, h2 { font-family: Arvo, Helvetica, Arial, sans-serif; font-weight: 400; line-height: 1.1; }
+
+  /* Navbar (as on the course site) */
+  .navbar { background: var(--navy); min-height: 66px; border-bottom: 30px solid var(--teal); }
+  .navbar ul {
+    list-style: none; margin: 0 auto; padding: 0 15px; max-width: 1170px;
+    display: flex; flex-wrap: wrap;
+  }
+  .navbar a {
+    display: flex; align-items: center; height: 66px;
+    color: #fff; font-size: 16.5px; padding: 0 16.5px; text-transform: uppercase;
+  }
+  .navbar a:hover, .navbar a:focus { background: var(--teal); color: var(--white); text-decoration: none; }
+  .navbar svg { width: 18px; height: 18px; fill: currentColor; }
+
+  /* Calculator */
+  main { width: 100%; max-width: 640px; margin: 0 auto; padding: 40px 16px 48px; flex: 1; }
+  main h1 { font-size: 39px; margin: 0 0 10px; }
+  p { margin: 0 0 12px; }
+
+  table { width: 100%; border-collapse: collapse; }
+  th, td { text-align: left; padding: 8px 6px; border-bottom: 1px solid var(--pale-line); }
+  th { font-size: 15px; font-weight: 700; }
+  tbody tr:hover { background: #fff; }
+  td.num, th.num { text-align: right; font-variant-numeric: tabular-nums; }
+  td label { font-weight: 700; }
+
+  select {
+    font: inherit; font-size: 17px; color: var(--navy); background: #fff;
+    border: 1px solid var(--slate); border-radius: 4px; padding: 4px 8px; min-width: 84px;
+  }
+  select:focus { outline: 2px solid var(--teal); outline-offset: 1px; }
+
+  .actions { display: flex; justify-content: flex-end; margin-top: 12px; }
+  button {
+    font: inherit; font-size: 16px; cursor: pointer;
+    background: var(--navy); color: #fff; border: none; border-radius: 4px; padding: 7px 18px;
+  }
+  button:hover, button:focus { background: var(--teal); }
+
+  .result {
+    margin-top: 28px; text-align: center; background: #fff;
+    border-top: 5px solid var(--teal); padding: 20px 16px 22px;
+  }
+  .result .label { font-family: Arvo, Helvetica, Arial, sans-serif; font-size: 22px; margin: 0; }
+  .result .letter {
+    font-family: Arvo, Helvetica, Arial, sans-serif; font-size: 72px; line-height: 1.1;
+    margin: 6px 0; color: var(--teal);
+  }
+  .result .letter.empty { color: var(--pale-line); }
+  .result .gpa { margin: 0; font-size: 16px; color: var(--slate); font-variant-numeric: tabular-nums; }
+
+  details { margin-top: 28px; font-size: 16px; }
+  summary { cursor: pointer; font-family: Arvo, Helvetica, Arial, sans-serif; font-size: 20px; }
+  details p { margin-top: 10px; }
+  details th, details td { padding: 4px 6px; }
+
+  /* Footer */
+  footer { background: var(--teal); color: var(--white); font-size: 15px; padding: 22.5px 15px 30px; }
+  footer .inner { max-width: 1140px; margin: 0 auto; }
+  footer img { display: block; margin-bottom: 8px; }
+  footer p { margin: 0; }
+  footer a { color: var(--white); border-bottom: 1px dotted var(--white); }
+  footer a:hover { text-decoration: none; }
+</style>
+</head>
+<body>
+
+
+
+<main>
+  <h1>Grade Calculator</h1>
+  <p>Select your letter grade for each component to see the resulting course grade.</p>
+
+  <table>
+    <thead>
+      <tr><th>Component</th><th class="num">Weight</th><th class="num">Letter grade</th></tr>
+    </thead>
+    <tbody id="rows"></tbody>
+  </table>
+  <div class="actions"><button type="button" id="reset">Reset</button></div>
+
+  <section class="result" aria-live="polite">
+    <p class="label">Final letter grade</p>
+    <p class="letter empty" id="finalLetter">—</p>
+    <p class="gpa" id="finalGpa">Select a grade for every component.</p>
+  </section>
+
+  <details>
+    <summary>How the grade is computed</summary>
+    <p>Each letter grade is converted to grade points, then combined using the weights
+    (Homework 20%, Midterm Exam 1 23%, Midterm Exam 2 23%, Final Exam 34%).
+    The weighted average is converted back to the letter whose grade-point value is nearest.</p>
+    <table>
+      <thead><tr><th>Letter</th><th class="num">Points</th><th class="num">Weighted avg. at least</th></tr></thead>
+      <tbody id="scale"></tbody>
+    </table>
+  </details>
+</main>
+
+<script>
+  const GRADES = [
+    ["A", 4.00], ["A-", 3.67], ["B+", 3.33], ["B", 3.00], ["B-", 2.67],
+    ["C+", 2.33], ["C", 2.00], ["C-", 1.67], ["D+", 1.33], ["D", 1.00], ["F", 0.00]
+  ];
+  const COMPONENTS = [
+    { id: "hw",  name: "Homework",       weight: 0.20 },
+    { id: "m1",  name: "Midterm Exam 1", weight: 0.23 },
+    { id: "m2",  name: "Midterm Exam 2", weight: 0.23 },
+    { id: "fin", name: "Final Exam",     weight: 0.34 }
+  ];
+
+  // Cutoff for each letter = midpoint between its points and the next lower letter's points.
+  const CUTOFFS = GRADES.map(([letter, pts], i) => {
+    const next = GRADES[i + 1];
+    return { letter, pts, min: next ? (pts + next[1]) / 2 : 0 };
+  });
+
+  const rows = document.getElementById("rows");
+  COMPONENTS.forEach(c => {
+    const tr = document.createElement("tr");
+    const opts = ['<option value="">—</option>']
+      .concat(GRADES.map(([l, p]) => `<option value="${p}">${l}</option>`)).join("");
+    tr.innerHTML = `<td><label for="${c.id}">${c.name}</label></td>
+      <td class="num">${Math.round(c.weight * 100)}%</td>
+      <td class="num"><select id="${c.id}">${opts}</select></td>`;
+    rows.appendChild(tr);
+  });
+
+  document.getElementById("scale").innerHTML = CUTOFFS.map(c =>
+    `<tr><td>${c.letter}</td><td class="num">${c.pts.toFixed(2)}</td>
+     <td class="num">${c.min === 0 ? "0.00" : c.min.toFixed(3)}</td></tr>`).join("");
+
+  function toLetter(avg) {
+    return CUTOFFS.find(c => avg >= c.min - 1e-9).letter;
+  }
+
+  function update() {
+    const vals = COMPONENTS.map(c => document.getElementById(c.id).value);
+    const letterEl = document.getElementById("finalLetter");
+    const gpaEl = document.getElementById("finalGpa");
+    if (vals.some(v => v === "")) {
+      letterEl.textContent = "—";
+      letterEl.classList.add("empty");
+      gpaEl.textContent = "Select a grade for every component.";
+      return;
+    }
+    const avg = COMPONENTS.reduce((s, c, i) => s + c.weight * parseFloat(vals[i]), 0);
+    letterEl.textContent = toLetter(avg);
+    letterEl.classList.remove("empty");
+    gpaEl.textContent = `Weighted grade points: ${avg.toFixed(2)} / 4.00`;
+  }
+
+  COMPONENTS.forEach(c => document.getElementById(c.id).addEventListener("change", update));
+  document.getElementById("reset").addEventListener("click", () => {
+    COMPONENTS.forEach(c => document.getElementById(c.id).value = "");
+    update();
+  });
+</script>
+</body>
+</html>
