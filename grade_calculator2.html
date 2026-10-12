@@ -27,19 +27,7 @@ permalink: /grade-calculator2/
     --white: #FCFCFC;
   }
   * { box-sizing: border-box; }
-  /*
-  html, body { margin: 0; }
 
-  body {
-    background: var(--pale); color: var(--navy);
-    font-family: "Open Sans", "Helvetica Neue", Helvetica, Arial, sans-serif;
-    font-size: 18px; line-height: 1.5;
-    display: flex; flex-direction: column; min-height: 100vh;
-  }
-  a { color: var(--slate); text-decoration: none; }
-  a:hover, a:focus { text-decoration: underline; }
-  h1, h2 { font-family: Arvo, Helvetica, Arial, sans-serif; font-weight: 400; line-height: 1.1; }
-*/
 
   /* Calculator */
   main { width: 100%; max-width: 640px; margin: 0 auto; padding: 40px 16px 48px; flex: 1; }
@@ -107,8 +95,8 @@ permalink: /grade-calculator2/
     <p class="gpa" id="finalGpa">Select a grade for every component.</p>
   </section>
 
-  <details>
-    <summary>How the grade is computed</summary>
+  <div>
+    <h2>How the grade is computed</h2>
     <p>Each letter grade is converted to grade points, then combined using the weights
     (Homework 20%, Midterm Exam 1 23%, Midterm Exam 2 23%, Final Exam 34%).
     The weighted average is converted back to the letter whose grade-point value is nearest.</p>
@@ -116,7 +104,7 @@ permalink: /grade-calculator2/
       <thead><tr><th>Letter</th><th class="num">Points</th><th class="num">Weighted avg. at least</th></tr></thead>
       <tbody id="scale"></tbody>
     </table>
-  </details>
+  </div>
 </main>
 
 <script>
