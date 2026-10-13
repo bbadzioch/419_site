@@ -60,7 +60,7 @@ chapters:
       complete: true
     - title: "15. Cosets and Lagrange Theorem"
       textbook: "Ch. 7"
-      publish: false
+      publish: true
       complete: true
     - title: "16. Quotient groups"
       textbook: "Ch. 9"
