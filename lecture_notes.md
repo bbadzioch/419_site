@@ -64,7 +64,7 @@ chapters:
       complete: true
     - title: "16. Quotient groups"
       textbook: "Ch. 9"
-      publish: false
+      publish: true
       complete: true
     - title: "17. Group actions"
       textbook: "--"
