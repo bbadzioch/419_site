@@ -68,11 +68,11 @@ chapters:
       complete: true
     - title: "17. Group actions"
       textbook: "--"
-      publish: false
+      publish: true
       complete: true
     - title: "18. Finite abelian groups"
       textbook: "Ch. 11"
-      publish: false
+      publish: true
       complete: true
     - title: "19. Rings"
       textbook: "Ch. 12"
